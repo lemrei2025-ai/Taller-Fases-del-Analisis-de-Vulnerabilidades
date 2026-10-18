@@ -1,0 +1,6 @@
+ID,Hallazgo,CVE,CVSS,Severidad,Probabilidad,Impacto,Riesgo,Exploit_Publico,Remediacion,Estado
+V-01,Ejecucion remota de codigo en servicio Server (SMB),CVE-2008-4250,9.8,Critica,Alta,Alto,Critico,Si,Migrar SO / aislar red / parchear,Abierto
+V-02,SMBv1 habilitado,N/A,7.5,Alta,Media,Alto,Si,Deshabilitar SMBv1,Abierto
+V-03,Firewall de host desactivado,N/A,6.5,Media,Alta,Medio,N/A,Activar y configurar firewall,Abierto
+V-04,Sesiones nulas SMB permitidas,N/A,5.3,Media,Media,Medio,N/A,Restringir sesiones anonimas,Abierto
+V-05,Sistema operativo fuera de soporte (EOL),N/A,9.0,Critica,Alta,Alto,Si,Migrar a SO con soporte,Abierto
